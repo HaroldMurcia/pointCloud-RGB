@@ -134,7 +134,7 @@ if __name__ == "__main__":
         '''
         # Asignacion de colores a la nube de puntos basado en la calibracion hecha
         '''
-        for i in n:
+        for i in range(n):
             x= int(calibracionFinal[0,i])
             y= int(calibracionFinal[1,i])
             
@@ -197,8 +197,8 @@ if __name__ == "__main__":
             
        
     #    
-        print "Error RMSE con " + str(len(X.T)) + " esquinas"
-        print errorP
+        print ("Error RMSE con " + str(len(X.T)) + " esquinas")
+        print (errorP)
         
         
         
